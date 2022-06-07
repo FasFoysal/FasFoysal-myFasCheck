@@ -8,7 +8,7 @@
 * else if (a == "" || a == null || a == undefined) {
     alert("Try again")
 }
-
+* <p onmouseover="this.style.color='red'">myDIV.</p>
 ----------------
 * text length chek exampall:
     let text = "Hello World!";
@@ -415,11 +415,44 @@ let text = pass >= 80 && pass <= 100 ? alert(pass + "You got a+") : pass <= 79 &
 
 ==================part-4
 
----loop----
- 3 type of loop in javascript ( while loop, do loop, for loop)
+---all type of loop----
+ 5 type of loop in javascript ( while loop, do loop, for loop, for... in(select), for...of(all auto))
 * Infinite Loop =  again and again
 * loop etaration = how much loop runing
 
+-----
+* object loop for in{
+    for in loop
+}Exampal{
+    let objectFor = {
+    name: "Foysal",
+    pation: "Student",
+    age: 21
+}
+console.log(objectFor.name); // Foysal;
+
+for (let key in objectFor) {
+    console.log(objectFor)
+}
+////
+for (let key in objectFor) {
+    console.log(key, objectFor[key])
+}
+
+}
+-----
+* arrear for of loop
+* for of loop
+
+* exampall-1{
+    let arfas = ["Foysal", "Shoun", "Fardin"];
+
+
+for (let fas of arfas) {
+    console.log(fas) //Foysal", "Shoun", "Fardin"
+}
+
+}
 ------------------------
   
     *while loop
@@ -905,3 +938,28 @@ if (userValueCheck == userValue) {
 
 --------------------
 * Dom === The Document Object Model
+
+------------------
+
+* Object in javascript
+
+1. variableName.objeck;
+2. variableName["objeck"]; // value
+
+Exampall-1{
+    const car = {
+    brand: "Farire",
+    color: "Red",
+    id: 789
+};
+console.log(car.brand);//Farire
+}
+
+exampall-2{
+    const car = {
+    brand: "Farire",
+    color: "Red",
+    id: 789
+};
+console.log(car["id"]);
+}

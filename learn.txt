@@ -1,0 +1,907 @@
+        start java script learning 30/04/2022
+* alert("hello world")
+* console.log("hello world)
+* single quation //
+* dubble quation /* ..... */
+* link javascript index.html  line end use ;
+* "use strict"
+* else if (a == "" || a == null || a == undefined) {
+    alert("Try again")
+}
+
+----------------
+* text length chek exampall:
+    let text = "Hello World!";
+    let length = text.length; //12
+* varible type 1. let name ; ------ decline
+                    name = "hello" ; ----- define
+                    
+---------
+* document.getElementById("age").style.color = "cyan";
+
+* document.getElementById("age").innerHTML = result;
+
+* document.getElementById("age").style.backgroundColor = "green";
+
+* const xyz = document.getElementsByClassName("clee");
+    xyz[0].innerHTML = "Hello World!";
+
+* onclick = "muFunctions()"
+    function muFunctions(){
+        if(){
+
+        }else{
+
+        }
+    }
+
+* javascript display hidden none function{
+    let hide = document.getElementById("hiden");
+    if (hide.style.display === "none") {
+        hide.style.display = "block";
+    } else {
+        hide.style.display = "none";
+    }
+}
+---------
+
+* varible 3 type 1. // type 1 :
+                    let fname ;
+                    fname = "foysal";
+                    ...........
+                    let lname ; 
+                    lname = "ahmed" ;
+
+                 2.   // type 2 :
+                    let fname = "foysal" ;
+                    let lname = "ahmed" ;
+
+                3. // type 3
+                    let fname = "foysal", lname = "ahmed" ;
+* var === let
+* var name use rolls  a-z, 0-9, $ _
+            my_name, mu$naeme etc... 
+            1myname = wrong
+* camelCess .. let myName = "Foysal" ;
+
+* pascalCase .. let MyName = "Foysal" ;
+
+* snakeCase .. let my_name = "Foysal" ; 
+
+-------------
+
+* LEARN constant
+* let variable can change 
+* const varible can't change 
+* const MY_SCHOOL_NAME = ("answer accedemy")
+-----------
+* datatype 1.string str= a-z
+           2.integer int= 0-9
+           3.floting = 34.34, .00
+
+* java datatype is dynamic
+* number type data 1.infinity ---25/0... [mean - big number of all the numbers ]
+                   2.nun ---- hello/2  [mean - not a number]
+
+* new type of value bigInt = 4543546765768780398495848229458n'use last = n' exm:   const maxOfNumber = BigInt(65767645646543453); //65767645646543456n
+console.log(maxOfNumber);
+
+* 3 " " in line use "name\"Foysal" = let fas = "My name is Foysal\" i am a student" // My name is Foysla" am a student.
+
+*  sting data quation mark can use 1." " 2.'' 3. ``
+                            @ quation can use `` 2 variable + exmpall: "cat"+price; == `cat  ${price} `; ----    
+    const names = "Foysal Ahmed Shoun";
+    const age = 20;  
+    const home = ' Shafipur\'s ';
+    const raselt = ` Hellow  ${names}  your age is  ${age}  you live's in ${home}`;
+
+------------
+
+*  Learning Boolean 
+*  boolean data type is conditions True or False
+
+-------------
+
+*  null datatype = empty value
+*  use null: let user = null ; user = "" ;
+        null = console.log("null")== object;
+                    this is javascript team folt
+------------------
+
+*  Undefiend datatype  =  user given no value 
+
+-------------------
+* which  datatype of operator  =  how can I know, { let price = 100; } which datatypeof price  ,  this is ......  typeof(price) == alert/console.log(typeof(price));
+    2 typeof = typeof price ; /  typeof(price);
+
+* typeof(name) //function form
+* typeof(name) //operator form
+====================
+
+console.log(typeof(100)); //number
+console.log(typeof("My Name")); //String
+console.log(typeof(true)); //boolean
+console.log(typeof(null)); //object
+console.log(typeof(undefined)); //undefined
+console.log(typeof(BigInt(56453654646345654))); //bigint
+
+===================
+
+---------------
+
+*  prompt  == alert = console .log
+*  use prompt user can give input data exampall : 
+                        const pro = prompt("Enter you name","Foysla");
+                        console.log(prom) //foysal
+*  prompt input placeholder data show use : const prom = prompt("Enter you name", "Foysal a ");
+*  history microsoft internet explorall  old version not support prompt input  placeholder,==undefined,,  solved: prompt("Enter name"," ") ;
+
+------------
+
+* Confirm = true/false == boolean (ok / cencle)
+
+--------------
+* Type of Conversion = number > type value change > string
+                        string > type value change > number
+                        exam:::
+                        ""const conversion = null //null
+                        conversion = String(conversion) //string 
+                        alert (conversion) //string ""
+                         "" let conve = prompt("Enter a number", "10");
+document.getElementById("c_con").innerHTML = typeof (conve);
+conve = Number(conve);
+document.getElementById("g_con").innerHTML = typeof conve; //Number ""
+
+-------------------
+* Number Type of fail alert:
+
+const checc = Number(undefined);
+alert(typeof(checc)); //number
+alert(checc); //NaN
+
+* Number ("     23434   ") ;  // 23434
+* Number ("    3434a    ") ;  // NaN
+* Number ("      ") ; = 0 
+* Number (undefined) ; //NaN
+* Number (true /'boolean type') ; // 1 
+* Number (false /'boolean type') ; // 0
+* Number ("dskajfdlkajflkdj") ; // NaN
+* Number (null)  ; // 0 
+
+----------------
+
+* Boolean == empty value = False :
+    nun / Undifined / NaN / 0 / "" / ---- "False"
+        else: not empty value: "foysal" / 2 / 0 /  ( "  ") --- True
+                                                php ("  ") --False
+
+------------------ 
+
+JavaScript operator
+
++	Addition	x = y + 2
+-	Subtraction	x = y - 2
+*	Multiplication	x = y * 2
+/	Division	x = y / 2
+%	Modulus (division remainder)  x = y % 2 : /end = vag ses
+++	Increment	x =  y++
+--	Decrement	x =  y--
+** Exponentiation operator ( ** ),= squar ; 
+                    const firstnumber = 5;
+                    const number = 2;//5*5*5
+                    === 125 ans
+
+ *  +, -, *, / == operator
+ *  1, 2, 3 = operand --- operator left - right =operand
+*  expration = (1+1) //full
+
+=====part-2========
+
+* Nigataion operator =  -5 
+        const firstnumber = 5;
+        const secendnumber = -firstnumber;
+        alert(secendnumber);
+* Unary +operator = (same) :work with one number 
+                    let fn = Number("34");
+                    let fn_2 = +("34")
+                    alert(typeof fn_2);//number
+
+* Binary Number: work  with two number = 5*9;
+* Subcrabson opeartor = *
+
+-----------------
+* Concatenation :const fullname = fname + " " + mname +  " " + lname;      
+
+-----------------
+* Operator Precedence: alert (1+1*9); // 10
+* work with operator(* / + -) Priority
+* if I do first + equal work use first braket ()= (1+1)*9;
+* + - == same work with left;
+* * / == same work with left; 
+* Operator Precedence power list link: https://www.w3schools.com/js/js_arithmetic.asp
+
+--------------------
+* Assignment Operators  ( = )
+* let num = null;
+alert(num = 4 + 9);
+* chain Assignment
+        let num;
+        let num2;
+        let num3;
+       let num = num2 = num3 = 2;
+        alert(num);
+* object Assignment : +=, -=, *=, /=
+        let number3 = 10 ;
+        number3 = number3 + 30;
+    short: number += 40 ;
+
+---------------------
+* Increment And Decrement Operators  ++, --
+   let num = 1
+   let num ++ -- // num = num + 1 ==2
+* prefix = ++num     let noo = ++num // 2
+* postfix = num++   let noo = num++ //1 
+* deffrence return value
+* alert (num++) // 1
+
+---------------------
+
+* Comma Operator :let com = (1 + 1, 2 + 2);
+                        alert(com) // 4
+* Comma Operator return last expration //4
+
+----------------------
+
+* Comparison Operators : https://www.w3schools.com/js/js_comparisons.asp
+1. ==	equal to -
+2. ===	equal value and equal type
+3. !=	not equal -
+4. !==	not equal value or not equal type
+5. >	greater than -
+6. <	less than -
+7. >=	greater than or equal to -
+8. <=	less than or equal to -
+
+----------------------
+
+* Strict Equality Vs Equality / ekjak equal "===" "=="
+    let se = "123" == 123; //true
+    let se2 = "123" === 123 //false
+
+---------------------
+
+* Null Undefined Equality 
+* let nue = null == undefined //true
+* let nue = null == null //true
+    null just given true use (null == undefined)
+* let nue = null == 0 //false
+
+===============part-3
+---------------
+
+* if statment
+    if ( ){
+        
+    }
+---------------
+
+* else / else if statment
+    if ( ){
+        
+    }else if(){
+
+    }else{
+        
+    }
+------------------
+
+* Even Odd Program{
+let numbers = Number(prompt("enter a number"));
+numbers = Number(numbers);
+if (numbers % 2 == 0) {
+    document.getElementById("eoo").innerHTML = `${numbers} is a Even numbers`;
+    document.body.style.backgroundColor = "orange";
+} else {
+    document.getElementById("eoo").innerHTML = `${numbers} is a Odd numbers`;
+    document.body.style.backgroundColor = "gray";
+}   }
+
+--------------------
+
+* Ternary Operator / Conditional /Question Mark Operator == if or else shortcut( ? :)
+ ? : ? :
+    {Expresson/ if  ?  if (resutl)  :  else(result);} 
+* Check Admin or Modaretor
+* Exampal 1 {
+
+    let userName = prompt("Enter your name:")
+    let ter = userName == "Foysal" ? "You are admin" : "You are Modaretor";
+    alert(ter);}
+    
+* Exampal 2{
+    let test = +prompt("Enter your age");
+    let result = test <= 17 ? `${test} You are baby boy` : `${test} Wellcome you are adult `;
+    document.getElementById("age").innerHTML = result;
+a   lert(result);
+}
+* Exampal 3{
+    let pass = +prompt("number")
+let text = pass >= 80 && pass <= 100 ? alert(pass + "You got a+") : pass <= 79 && pass >= 50 ? alert(pass + "you got a") : pass >= 0 && pass <= 50 ? alert(pass + "you fail") : "";
+}
+
+----------------------
+* logical operator ==
+                         || == or 
+                         && == and
+                         ! == not
+                         ?? == null coalescing
+* return boolean value
+
+-----------------------
+
+* || or operator need 2 condition to 1 condition true
+
+* || or operator = ||  exam:== if(a>b || a>c) {
+
+}
+
+* || or operator find true valu
+
+* or || operator true all value return = first value
+
+* or || operator false all value return = last value
+
+* or || operator can use value:
+            let return = 0 || 12 || 40; // return  true value 12
+
+* when user cant give any value = else if (a == "" || a == null || a == undefined) {
+    alert("Try again")
+} ==== shortcut =   let userName = prompt("Enter your    name:");
+    let nouserName = userName || "Blank user";
+    if (nouserName == "Blank user") {
+        alert("Plz input your name");
+    } else {
+        alert("Your name is: " + userName);
+    }
+
+-----------------------
+
+* && == and operator 
+
+* && and opreator neet 2 condition true
+
+* && and opreator find false value
+
+* &&  == let return = 12 && 2 && 0 // return false value 0
+
+* && operator true all value return = last value
+
+* && operator false all value return = first value
+
+-------------------
+
+! not operator
+* ! not operator work  !true == false , !false == true EXAM{
+    let nameLenCheck = 1;
+    if (!(nameLenCheck >= 3) && !(nameLenCheck <= 12)) {
+        document.getElementById("nalen").innerHTML = "User Name Lenth Not Valid Use 3-12 lenth name"
+    } else {
+        document.getElementById("nalen").innerHTML = " User Name Lenth Valid";
+    }
+}
+* !true == true , !false == true
+
+---------------------
+  
+?? Null Coalescing Operator ??
+
+* ?? == (!== undefined and  !== null)
+* expresson or value ?? layout
+* Ternary shortcut exa:{
+    let checks = "raj";
+
+    let checkTer = (checks !== undefined) && (checks !== null) ? console.log("not nudefined") : console.log("undefined");
+
+    == null coalescing;
+
+    let nc;
+    nc = checks ?? "undefined"
+    console.log(nc); //raj
+}
+
+* ?? is new, old programmer use or || operator 
+
+* Difference  ?? set = 0 return \\but or || give false
+
+==================part-4
+
+---loop----
+ 3 type of loop in javascript ( while loop, do loop, for loop)
+* Infinite Loop =  again and again
+* loop etaration = how much loop runing
+
+------------------------
+  
+    *while loop
+* Structure {
+    while (Condition){
+        loop body
+    }
+}
+* exampall:{
+    let counter = 0;
+    let con = "";
+    while (counter < 5) {
+        con += " <hr> try it:" + counter;
+        counter++;
+        counter--; // counter = 5
+    }
+    document.getElementById("wil").innerHTML = con;
+}
+
+------------------------
+    * do loop
+* do loop work First time no condition true it's work , secend time condition must be true then condition work.
+* do loop Structure {
+
+    do {
+        loop body
+
+    } while ( condition )
+}
+* exam{
+        let doloop = 1;
+        do {
+        console.log("hello world " + doloop);
+        doloop++;
+    } while (doloop > 10);  //hello world 1
+}
+
+--------------
+    for loop
+* most use full loop 
+
+* for loop Structure {
+    for ( begin ; condition checking ; steeping){
+        loop body
+    }
+}
+
+* exampall {
+    for (let foLoop = 0; foLoop <= 10; foLoop++) {
+    console.log("hello " + foLoop);
+}
+}
+
+--------------------
+
+*  Break Statement 
+
+* use loop stop 
+
+* exampall: {
+    let num = 0;
+    let numMas = "";
+    while (num <= 10) {
+        numMas += "<br> Break 10 of " + num;
+
+        if (num == 5) {
+            break;
+        }
+        num++;
+    }
+    document.getElementById("break").innerHTML = numMas;//5
+} 
+
+* password same?
+* prompt no close value add ,add
+
+------------------------
+
+* Continue operatoe
+
+* use loop Invisible value
+
+* exampall {
+    for (conti = 1; conti <= 10; conti++) {
+    if (conti == 5 || conti == 6) {
+        continue; // skip all thing
+    }
+    console.log("Hello " + conti);// 1 ,2 ,3 ,4, 7, 8, 9, 10
+    }
+}
+
+======================== part-5
+
+--------------------------
+
+* Nested  Loop / inner loop
+
+* exampall {
+    user 1
+ -----user 1
+ -----user 2
+ -----user 3
+ user 2
+ -----user 1
+ -----user 2
+ -----user 3
+ user 3
+ -----user 1
+ -----user 2
+ -----user 3
+}
+
+* nested loop console.log()
+    let a;
+    let c;
+    for (a = 1; a <= 10; a++) {
+        console.log("user " + a);
+        for (c = 1; c <= 3; c++) {
+            console.log("-----user " + c);
+        }
+    }
+
+--------------------
+
+* lable break continue / break 
+
+* condition{
+    lableName_1 :
+    for( ; ; ){
+        
+        breakName_2 :
+        for( ; ; ){
+            break lableName_1 || breakName_2
+        }
+    }
+}
+
+* lable break use ( break ){
+    ableOne:
+    for (x = 1; x <= 5; x++) {
+        console.log("lableOne " + x);
+        labelTow:
+            for (y = 1; y <= 5; y++) {
+                console.log("-------lableTow " + y);
+                if (x == 2 && // || y == 2) {
+                    break lableOne;
+                }
+            }
+    }
+}
+
+* lable break use ( continue ){
+    lableOne:
+    for (x = 1; x <= 5; x++) {
+        console.log("lableOne " + x);
+        labelTow:
+            for (y = 1; y <= 5; y++)  {
+                console.log("-------lableTow " + y);
+                if (x == 2 && \\ || y == 2) {
+                    continue lableOne;
+                }
+            }
+    }
+}
+
+----------------------
+
+*  Switch Statement
+
+* Switch Statement checking === strict operater
+
+* Switch Statement use : when we need to work 1 value
+
+*** switch statement every condition exit ( case_- use " break" operator) 
+
+* switch statment body{
+    let value = +prompt("100, 200", 100);
+    if(value == 100){
+        alert("Welcome You input " + value);
+    else if (value == 200){
+        alert("Welcome You input " + value);
+    }else{
+         alert(" You must input 100 or 200 You input " + value)
+    }
+    } Shortcut:-----
+    
+    let value = +prompt("100, 200", 100);
+    switch (value) {
+        case (100):
+            alert("Welcome You input " + value);
+            break
+        case (200):
+        case (300):
+        case (400):
+            alert("Welcome You input " + value);
+            break
+        default:
+            alert(" You must input 100 or 200 You input " + value)
+    }
+}
+
+---------------
+
+* function call
+
+* javascript not read function{}
+
+* when funciton dcline - then js read function{}
+
+* function myFunction() {
+    console.log("hello");
+    console.log("what");
+    console.log("is");
+}
+myFunction();
+myFunction();
+
+
+-------------------
+
+* Function local variable & global variable
+
+* local variable  assign in Function {
+    let myName = " "  //local variable
+}
+
+* global variable assign  out site .... let myName = " "  //global variable
+
+* local variable can use:- global variable 
+
+----------------
+
+* Function parameters and Arguments
+
+* which is fnction parameters and argument
+    function pareArgu(fastName, lastName) \\Function Paraterers  
+    {
+    console.log(fastName, lastName);
+    }
+pareArgu("Foysla", "Ahamed "); //Function arguments
+
+* exampall 1{
+
+    function funPera(hello, hello_2) {
+    console.log((+hello) + (+hello_2));
+    }
+funPera(100, 300);
+
+}
+* exampall 2{
+    function funPera(hello, hello_2) {
+    console.log(hello = prompt("anything") + " " + (hello_2 = prompt("Enter a value")));
+    }
+funPera();
+}
+
+* exampall 3{
+    function funPera(hello, hello_2) {
+    console.log(hello + hello_2);
+}
+funPera(5, 10);
+
+funPera(100, 399);
+}
+
+
+======================== part-6
+-----------------------
+
+* Default parameter 
+
+* (Internet Explorer a old Harshany not work) function sum(namOne, namTow = "noValue") //secend parameter == "no value" is Default parameter {
+    console.log(namOne, namTow);
+}
+sum("fas") //secend parameter undefined
+
+* exampall {
+    function sumDafult() {
+    alert("enter the secend parameter");
+}
+
+function sum( fName, lName = sumDafult() ) {
+    console.log(fName + " " + lName);
+}
+sum("Foysal")// no secend parameter
+// enter the secend parameter
+
+}
+* default value we can set everything value, if condition (undefined ??), function, null colaecing (??), or(||) etc
+
+
+-------------------------------
+
+* Function return exam{
+    function fas(){
+        alert("Hello World");
+ //2. problem solved use( return("Hello World");         )
+    }
+    let fas_2 = fas() //1.return fas_2 variable undefined problem;
+}
+
+* function when use " return " then JavaScript exit the function -- like "loop" function use "break" statment;
+
+* me ... user login use = id, and pass;{
+
+    //    user id varify
+const nam = prompt("Enter you name")
+
+function userCheck(userId, userPass) {
+    userCondition(userId, userPass);
+    return userCondition(userId, userPass);
+}
+
+function userCondition(userId, userPass) {
+    if (userId == 1234  && userPass == 1122) {
+        document.getElementById("varefi").innerHTML = `Welcome ${nam}`;
+    } else {
+        document.getElementById("varefi").innerHTML = `Sorry ${nam} try again`;
+    }
+}
+//button onclick;
+function userFitback() {
+    userCheck(prompt("userId"), prompt("Password"))
+}
+}
+=====profesonal ====
+//    user id Verify
+function userCheck(userId, userPassword) {
+    userCondition(userId, userPassword);
+    return userCondition(userId, userPassword);
+
+}
+function userCondition(userId, userPassword) {
+    const idPass = document.getElementById("varefi");
+    // user - 1
+    if (userId == "1234" && userPassword == "1122") {
+        idPass.innerHTML = " Wellcome user1 "
+        let userAccessCheck = true;
+        return useAcc(userAccessCheck);
+    } // user - 2
+    else if (userId == "4321" && userPassword == "fas") {
+        idPass.innerHTML = " Wellcome user2 ";
+        let userAccessCheck = true;
+        return useAcc(userAccessCheck);
+    } // user - 3
+    else if (userId == "1011" && userPassword == "use11") {
+        idPass.innerHTML = " Wellcome user3 ";
+        let userAccessCheck = true;
+        return useAcc(userAccessCheck);
+    } else {
+        alert(" User id and password not match");
+        idPass.innerHTML = "";
+        let userAccessCheck = false;
+        return useAcc(userAccessCheck);
+    }
+}
+function useAcc(userAccessCheck) {
+    if (userAccessCheck == true) {
+        const acss = document.getElementById("userAccess");
+        if (acss.style.display === "none") {
+            acss.style.display = "block";
+        }
+    } else {
+        document.getElementById("userAccess").style.display = "none";
+    }
+}
+function userFitback() {
+    userCheck(prompt("Enter your user id"), prompt("Enter your pass"))
+}
+
+
+-----------------------
+
+* Javascript Prime Number : bangla(Moulik number : 1, 3, 5, 7, 9, 11 etc;)
+
+* innerNumber start 2
+
+* exampall{
+// prime Number check
+exiPrim:
+    for (let outerNumber = 2; outerNumber <= 100; outerNumber++) {
+        for (let innerNumber = 2; innerNumber < outerNumber; innerNumber++) {
+            if (outerNumber % innerNumber == 0) {
+                continue exiPrim;
+            }
+        }
+        console.log(outerNumber); // 1  3 5 7 
+    }
+}
+
+* Dynamic exampall  (use function parameter){
+
+function primeNumberCheck(getPrimeNumber) {
+    exirPrime: for (let firstNumber = 1; firstNumber <= getPrimeNumber; firstNumber++) {
+        for (let secendNumber = 2; secendNumber < firstNumber; secendNumber++) {
+
+            if (firstNumber % secendNumber == 0) {
+                continue exirPrime;
+            }
+        }
+        console.log(firstNumber);
+    }
+}
+primeNumberCheck(50)
+}
+
+* use function get Prime Number exampall{
+
+    //  Prime Number get Function
+function getFstFun(userPrime) {
+    let prin = ""
+    for (let muNumber = 1; muNumber <= userPrime; muNumber++) {
+        if (getSndFun(muNumber)) {
+            let fontPrint = document.getElementById("funPri");
+            fontPrint.innerHTML = prin += "<br> Use Functon Prime numebr is = " + muNumber;
+            console.log(muNumber);
+        } else {
+            continue;
+        }
+    }
+}
+
+function getSndFun(muNumber) {
+    for (let youNumber = 2; youNumber < muNumber; youNumber++) {
+        if (muNumber % youNumber == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+}
+
+function getFasFunCall() {
+    let f = 20;
+    getFstFun(f);
+}
+}
+
+-------------------------
+
+* Function Expression / (Variable) use Function
+
+* function variable(){
+    return "Function use variable";
+}
+
+* (Variable) use Function rools >>
+
+* let functionVariable = function (){
+    return "Function use variable";
+}; (*Must use) 
+
+ alert( functionVariable() ) //Function use variable
+
+
+====================== end: video
+* java script object
+
+ -----------------------------
+ * java script Trim
+
+ * exampall 1{
+     let text = "     Hello World!     ";
+let result = text.trim();
+
+document.getElementById("demo1").innerHTML = text;  //      Hello World      .
+document.getElementById("demo2").innerHTML = result;//Hello World.
+ }
+
+ * exampall 2{
+     let userValue = prompt("Enter your user name");
+let userValueCheckTrim = userValue.trim();
+let userValueCheck = userValueCheckTrim || "blank";
+
+let ter = userValueCheck == "blank" ? " Plz input you name " : "";
+
+if (userValueCheck == userValue) {
+    alert(`Welcome ${userValue}`);
+} else {
+    console.log(ter);
+}
+ }
+
+--------------------
+* Dom === The Document Object Model
